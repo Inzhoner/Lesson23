@@ -13,7 +13,7 @@ floors.forEach((item) => {
     let dataFloor = item.getAttribute(`data-floor`);
     let dataFlats = item.getAttribute(`data-flats`);
     console.log(
-      `Номер этажа: ` + dataFloor + `   ` + `Квартир в продаже: ` + dataFlats
+      `Номер поверху: ` + dataFloor + `   ` + `Квартир у продажу: ` + dataFlats
     );
 
     floorCell.innerText = dataFloor;
